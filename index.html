@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Clientes</title>
+    <link rel="stylesheet" href="/style.css"> <!-- Adicione um arquivo CSS para estilos -->
+   
+</head>
+<body>
+    <header>
+        <h1 id="header-title" class="header-title">Cadastro de Clientes vip's</h1>
+    </header>
+    <main>
+        <button type="button" class="button blue mobile" id="cadastrarCliente">Cadastrar Cliente</button>
+        <table id="tableClient" class="records">
+            <thead>
+                <tr>
+                   
+                </tr>
+            </thead>
+            <tbody id="clientTableBody">
+                <!-- Os registros dos clientes serão inseridos aqui dinamicamente -->
+            </tbody>
+        </table>
+        <div class="modal" id="modal">
+            <div class="modal-content">
+                <header class="modal-header">
+                    <h2>Novo Cliente</h2>
+                    <span class="modal-close" id="modalClose"></span>
+                </header>
+                <form id="form" class="modal-form">
+                    <input type="text" id="nome" data-index="new" class="modal-field" placeholder="Nome do Cliente" required>
+                    <input type="email" id="email" class="modal-field" placeholder="E-mail do Cliente" required>
+                    <input type="tel" id="celular" class="modal-field" placeholder="Celular do Cliente" required>
+                    <input type="text" id="cidade" class="modal-field" placeholder="Cidade do Cliente" required>
+                </form>
+                <footer class="modal-footer">
+                    <button id="salvar" class="button green">Salvar</button>
+                    <button id="cancelar" class="button red">Cancelar</button>
+                </footer>
+            </div>
+        </div>
+    </main>
+    <footer>
+        &copy; 2023 Amigos uni9
+    </footer>
+    <script src="script.js"></script> <!-- Adicione um arquivo JavaScript para interatividade -->
+</body>
+</html>

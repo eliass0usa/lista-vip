@@ -1,0 +1,142 @@
+/* Reset padrão para remover margens e preenchimento padrão */
+html, body, h1, h2, h3, p, ul, li, button, input {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+   
+    
+}
+
+/* Defina a cor de fundo para o corpo e defina uma fonte padrão */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #0077b6;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin: 50px;
+}
+
+.header-title {
+    font-size: 24px;
+}
+
+/* Estilo do botão "Cadastrar Cliente" */
+.button.blue.mobile {
+    background-color: #0096c7;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Estilo da tabela */
+.records {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+
+.records th, .records td {
+    padding: 10px;
+    border: 1px solid #e2e2e2;
+    text-align: left;
+}
+
+.records th {
+    background-color: #0096c7;
+    color: #ffffff;
+}
+
+/* Estilo do modal */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: #ffffff;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 400px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.modal-header {
+    background-color: #0096c7;
+    color: #ffffff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-close {
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.modal-form {
+    padding: 20px;
+}
+
+.modal-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilo dos botões no modal */
+.modal-footer {
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: right;
+}
+
+.button.green {
+    background-color: #28a745;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.button.blue {
+    background-color: #0077b6;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #0077b6;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}

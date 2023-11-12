@@ -25,10 +25,11 @@ const Input = styled.input`
   height: 40px;
 `;
 
-const label = styled.label``;
+const Label = styled.label``;
 
-const button = styled.button`
+const Button = styled.button`
   padding: 10px;
+  color: #fff;
   cursor: pointer;
   border-radius: 5px;
   border: none;
@@ -42,23 +43,23 @@ const Form = ({ onEdit }) => {
   return (
     <FormContainer ref={ref}>
       <InputArea>
-        <label>Nome</label>
-        <input name="nome" />
+        <Label>Nome</Label>
+        <Input name="nome" />
       </InputArea>
       <InputArea>
-        <label>E- mail</label>
-        <input name="email" type="email" />
+        <Label>E- mail</Label>
+        <Input name="email" type="email" />
       </InputArea>
       <InputArea>
-        <label>Telefone</label>
-        <input name="fone" />
+        <Label>Telefone</Label>
+        <Input name="fone" />
       </InputArea>
       <InputArea>
-        <label>Data de Nascimento</label>
-        <input name="data_nascimento" type="date" />
+        <Label>Data de Nascimento</Label>
+        <Input name="data_nascimento" type="date" />
       </InputArea>
 
-      <button type="submit">Salvar</button>
+      <Button type="submit">Salvar</Button>
     </FormContainer>
   );
 };

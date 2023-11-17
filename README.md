@@ -6,7 +6,7 @@ VIP O PROJETO é uma aplicação web projetada para fornecer uma experiência  p
 - Registro de Usuário: A aplicação fornece um formulário completo para os usuários se registrarem. O formulário inclui campos para e-mail, número de telefone e data de nascimento. Cada campo é validado e quaisquer erros são exibidos ao usuário.
 
 ## Tecnologias Utilizadas
-O projeto é construído usando JavaScript, com o componente de formulário construído usando a biblioteca Material-UI para React. O formulário usa o componente TextField do Material-UI, com estilo personalizado e adornos para uma experiência de usuário única.
+O projeto é construído usando React JS, com o componente de formulário construído usando a biblioteca Material-UI para React. O formulário usa os componentes do Material-UI, com estilo personalizado e adornos para uma experiência de usuário única.
 
 ## Melhorias Futuras
 Estamos constantemente trabalhando para melhorar o VIP O PROJETO. As atualizações futuras incluirão mais campos de formulário para informações adicionais do usuário, validação de formulário aprimorada e uma interface de usuário mais intuitiva.

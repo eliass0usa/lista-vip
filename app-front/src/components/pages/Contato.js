@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { TextField, Button, Typography, Box, InputAdornment, InputLabel } from '@mui/material';
+import { TextField, Button, Typography, Box, InputAdornment, InputLabel, Divider } from '@mui/material';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import PersonIcon from '@mui/icons-material/Person';
 import MessageIcon from '@mui/icons-material/Message';
@@ -16,13 +16,29 @@ function Contato() {
   };
 
   return (
-    <Box >
-      <Box display="flex" flexDirection="column" alignItems="center" marginBottom={2}>
-        <MailOutlineIcon fontSize="large" />
-        <Typography variant="h5" component="h2">
-          Fale Conosco
-        </Typography>
-      </Box>
+    <Box 
+        component="form"
+        sx={{
+          display: 'flex',
+          flexDirection: 'column',
+          gap: 2,
+          backgroundColor: '#fff',
+          padding: 2,
+          boxShadow: 1,
+          borderRadius: 1,
+          marginTop: 1,
+          alignItems: 'flex-start',
+          marginBottom: 2, 
+        }}
+    >
+<Box>
+  <Typography variant="h4" component="h1" >
+   <MailOutlineIcon/> Fale Conosco
+   
+  </Typography>
+  Para enviar sua solicitação, dúvida, sugestão ou elogios, por favor, preencha os campos abaixo:
+</Box>
+      <Divider sx={{ marginBottom: 3, width: '100%' }} />
       <form onSubmit={handleSubmit}>
         <TextField 
           value={nome} 

@@ -28,7 +28,8 @@ import InfoRoundedIcon from "@mui/icons-material/InfoRounded";
 import LiquorSharpIcon from "@mui/icons-material/LiquorSharp";
 import LocalActivityOutlinedIcon from "@mui/icons-material/LocalActivityOutlined";
 import LockPersonIcon from "@mui/icons-material/LockPerson";
-import { enviarDadosParaBanco } from "../services/api";
+import { enviarDadosParaBanco } from "../../backend/services/api";
+// app-front\src\backend\server.js
 
 const Form = () => {
   const {
@@ -141,7 +142,7 @@ const Form = () => {
         variant="filled"
         InputLabelProps={{ shrink: true }}
         {...register("cpf", { required: "CPF é obrigatório" })}
-        error={Boolean(errors.dataFesta)}
+        error={Boolean(errors.cpf)}
         helperText={errors.dataFesta?.message}
         sx={{ width: "100%", "& .MuiInputBase-root": { width: "100%" } }}
         InputProps={{

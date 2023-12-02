@@ -104,3 +104,6 @@ lista-vip/
 ## LINK PARA ACESSO AO PROJETO HOSPEDADO:
 
 [LINK PARA ACESSO ](https://mateusjsantana.github.io/lista-vip-project/)
+
+## VIDEO DE APRESENTÇÃO DO PROJETO ( NÃO LISTADO ):
+https://youtu.be/yeRm8CTHUnI

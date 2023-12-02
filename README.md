@@ -1,4 +1,4 @@
-**Documentação do Projeto Lista VIP**
+**Documentação do Projeto Lista VIP UNINOVE - 2023**
 
 ## Tecnologias Utilizadas:
 

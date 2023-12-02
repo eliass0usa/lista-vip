@@ -107,3 +107,11 @@ lista-vip/
 
 ## VIDEO DE APRESENTÇÃO DO PROJETO ( NÃO LISTADO ):
 https://youtu.be/yeRm8CTHUnI
+
+##INTEGRANTES
+1. Elias Oliveira
+2. Jose Mateus
+3. João Beccari
+4. Nicolas Barros
+5. Felipe Souza
+6. Luigi Botelho

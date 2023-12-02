@@ -1,15 +1,106 @@
-# VIP O PROJETO
+**Documentação do Projeto Lista VIP**
 
-VIP O PROJETO é uma aplicação web projetada para fornecer uma experiência  para os usuários reservarem seus lugares em listas VIP para festas, foi por alunos para um Projeto da Universidade Nove de Julho.
+## Tecnologias Utilizadas:
 
-## Funcionalidades
-- Registro de Usuário: A aplicação fornece um formulário completo para os usuários se registrarem. O formulário inclui campos para e-mail, número de telefone e data de nascimento. Cada campo é validado e quaisquer erros são exibidos ao usuário.
+### Frontend:
 
-## Tecnologias Utilizadas
-O projeto é construído usando React JS, com o componente de formulário construído usando a biblioteca Material-UI para React. O formulário usa os componentes do Material-UI, com estilo personalizado e adornos para uma experiência de usuário única.
+- **React:** Uma biblioteca JavaScript para criar interfaces de usuário.
+- **Material-UI:** Uma biblioteca de componentes React que implementa o Material Design.
+- **react-hook-form:** Uma biblioteca para gerenciar formulários no React.
+- **axios:** Uma biblioteca para fazer requisições HTTP.
 
-## Melhorias Futuras
-Estamos constantemente trabalhando para melhorar o VIP O PROJETO. As atualizações futuras incluirão mais campos de formulário para informações adicionais do usuário, validação de formulário aprimorada e uma interface de usuário mais intuitiva.
+### Backend:
 
-## Licença
-VIP O PROJETO é licenciado sob a Licença MIT. Consulte o arquivo LICENSE para obter mais detalhes.
+- **Node.js:** Ambiente de execução JavaScript server-side.
+- **Express:** Framework web para Node.js.
+- **cors:** Middleware para habilitar o controle de acesso HTTP (CORS).
+- **mysql2:** Cliente MySQL para Node.js.
+
+### Banco de Dados:
+
+- **MySQL:** Sistema de gerenciamento de banco de dados relacional.
+
+### Outros:
+
+- **Git:** Sistema de controle de versão distribuído.
+- **npm:** Gerenciador de pacotes para Node.js.
+
+## Estrutura do Projeto:
+
+```
+lista-vip/
+│
+├── app-front/                  # Aplicação Frontend
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── pages/         # Páginas da aplicação
+│   │   │   │   ├── Form.js    # Componente de formulário
+│   │   │   │   └── ...
+│   │   │   ├── layouts/       # Layouts compartilhados
+│   │   │   ├── styles/        # Estilos globais
+│   │   │   └── ...
+│   │   ├── services/           # Serviços, como requisições HTTP
+│   │   └── ...
+│   └── ...
+│
+└── app-front/src/components/backend/  # Backend da aplicação
+    ├── node_modules/
+    ├── package.json
+    ├── server.js               # Configuração do servidor Express
+    └── ...
+```
+
+## Configuração do Banco de Dados (LOCALMENTE):
+
+- Abra `app-front/src/components/backend/server.js`.
+- Modifique as configurações do banco de dados (`host`, `user`, `password`, `database`) conforme necessário.
+
+## Instruções para Execução:
+
+1. **Clonagem do Repositório:**
+
+   ```bash
+   git clone https://github.com/seu-usuario/lista-vip.git
+   ```
+
+2. **Instalação das Dependências no Frontend:**
+
+   ```bash
+   cd lista-vip/app-front
+   npm install
+   ```
+
+3. **Instalação das Dependências no Backend:**
+
+   ```bash
+   cd lista-vip/app-front/src/components/backend
+   npm install
+   ```
+
+4. **Configuração do Banco de Dados:**
+
+   - Abra o arquivo `server.js` em `lista-vip/app-front/src/components/backend`.
+   - Modifique as configurações do banco de dados (`host`, `user`, `password`, `database`) conforme necessário.
+
+5. **Execução do Backend:**
+
+   ```bash
+   node server.js
+   ```
+
+6. **Execução do Frontend:**
+
+   ```bash
+   cd lista-vip/app-front
+   npm start
+   ```
+
+
+
+7. **Interaja com o Aplicativo:**
+   - Navegue, preencha o formulário. 
+
+## LINK PARA ACESSO AO PROJETO HOSPEDADO:
+
+[LINK PARA ACESSO ](https://mateusjsantana.github.io/lista-vip-project/)

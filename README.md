@@ -1,6 +1,6 @@
-**Documentação do Projeto Lista VIP UNINOVE - 2023**
+## Documentação do Projeto Lista VIP UNINOVE - 2023
 
-## Tecnologias Utilizadas:
+### Tecnologias Utilizadas:
 
 ### Frontend:
 
